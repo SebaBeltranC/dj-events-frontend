@@ -1,5 +1,11 @@
+import Layout from '../../components/Layout';
+
 const EventsPage = () => {
-  return <h1>Events</h1>;
+  return (
+    <Layout title='List DJ Events'>
+      <h1>Events</h1>
+    </Layout>
+  );
 };
 
 export default EventsPage;
